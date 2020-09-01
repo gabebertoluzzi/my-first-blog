@@ -26,6 +26,8 @@ SECRET_KEY = 'sc9@$u68)p#a9$qnez#_(135ojvg(67qo(kw^&^yis@-n2%8!%'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# Potential fix for python anywhere
+#ALLOWED_HOSRTS = ['gabebertoluzzi.pythonanywhere.com'] 
 
 
 # Application definition
