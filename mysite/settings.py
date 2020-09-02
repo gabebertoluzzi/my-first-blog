@@ -27,7 +27,12 @@ DEBUG = True
 
 #ALLOWED_HOSTS = []
 # Potential fix for python anywhere
-ALLOWED_HOSTS = ['gabebertoluzzi.pythonanywhere.com'] 
+#ALLOWED_HOSTS = [
+#    'gabebertoluzzi.pythonanywhere.com',
+#    '127.0.0.1'
+#    ] 
+ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition
